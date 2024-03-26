@@ -55,7 +55,7 @@ h3 {
 
 
 #bright {
-  position: absolute;
+  position: fixed;
   z-index: -1;
   top: 6.9em;
   width: 94.9em;
@@ -63,8 +63,8 @@ h3 {
 
 #dark {
   margin-inline-start: 6em;
-  position: absolute;
-  z-index: 0;
+  position: fixed;
+  z-index: 2;
   top: 8.91em;
   width: 94.9em;
 }
