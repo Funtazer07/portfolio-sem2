@@ -21,8 +21,8 @@ section h1 {
 }
 
 section h2 {
-  margin-inline-start: 3em;
-  margin-top: 5em;
+  margin-inline-start: 4em;
+  margin-top: 10em;
   font-size: 2em;
   transform: rotate(-20deg);
   color: #ffffff;
@@ -36,9 +36,9 @@ h3 {
 }
 
 #me {
-  width: 50em;
+  width: 60em;
   position: absolute;
-  top: 4.75em;
+  top: -2.91em;
   right: 5em;
   z-index: 1;
 }
@@ -53,25 +53,26 @@ h3 {
   user-select: none; /* Standard syntax */
 }
 
-/*
+
 #bright {
   position: absolute;
   z-index: -1;
-  top: 7em;
+  top: 6.9em;
   width: 94.9em;
 }
 
 #dark {
+  margin-inline-start: 6em;
   position: absolute;
   z-index: 0;
-  top: 10em;
+  top: 8.91em;
   width: 94.9em;
 }
-*/
+
 
 main {
   position: relative;
-  margin-top: 17.6em;
+  margin-top: 7.6em;
   display: flex;
   flex-direction: row;
   overflow: hidden;
