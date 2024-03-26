@@ -4,6 +4,5 @@ window.addEventListener('scroll', function() {
   
     // Move #dark and #bright elements slightly to the right based on scroll position
     document.getElementById('dark').style.marginLeft = (6 + scrollPosition * scrollFactor) + 'em';
-    document.getElementById('bright').style.marginLeft = (-scrollPosition * scrollFactor) + 'em';
-  });
+    document.getElementById('bright').style.marginLeft = (-scrollPosition * scrollFactor) + 'em';  });
   

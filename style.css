@@ -70,7 +70,8 @@ h3 {
 }
 
 
-main {
+nav {
+  z-index: 3;
   position: relative;
   margin-top: 7.6em;
   display: flex;
@@ -78,7 +79,7 @@ main {
   overflow: hidden;
 }
 
-main figure {
+nav figure {
   margin: 0;
   padding: 0;
   width: 50%;
