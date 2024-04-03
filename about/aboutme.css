@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow-x: hidden;
+  }
+  
+  @font-face {
+    font-family: "Bayon";
+    src: url("../fonts/Bayon-Regular.woff") format("woff"),
+      url("../fonts/Bayon-Regular.woff2") format("woff2");
+  }
+
+  p {
+    color: #ff0000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+    overflow: hidden;
+  }
+
+  a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: "Bayon", sans-serif;
+  }
+
+  .active {
+    color: #ff0000;
+  }
+
+  .link:hover {
+    color: #ff0000;
+  }

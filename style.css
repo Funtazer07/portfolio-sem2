@@ -35,6 +35,11 @@ h3 {
   font-family: "Bayon", sans-serif;
 }
 
+p {
+  color: #ff0000;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #me {
   width: 60em;
   position: absolute;
