@@ -13,12 +13,27 @@ body {
       url("../fonts/Bayon-Regular.woff2") format("woff2");
   }
 
-  p {
-    color: #ff0000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-  
-  
+  @font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular.woff2") format("woff2");
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 50%;
+}
+
+section p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+  } 
+
   nav {
     display: flex;
     flex-direction: row;
