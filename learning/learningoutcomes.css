@@ -1,34 +1,38 @@
 body {
-    background-color: black;
+    background-image: url(../pictures/backforabout.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     overflow-x: hidden;
+    align-content: center;
   }
   
-  @font-face {
+@font-face {
     font-family: "Bayon";
     src: url("../fonts/Bayon-Regular.woff") format("woff"),
-      url("../fonts/Bayon-Regular.woff2") format("woff2");
-  }
+    url("../fonts/Bayon-Regular.woff2") format("woff2");
+  } 
 
-  p {
-    color: #ff0000;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff") format("woff"),
+    url("../fonts/Lato-Regular.woff2") format("woff2");
+}
   
-  
-  nav {
+nav {
     display: flex;
     flex-direction: row;
+    margin-block-start: 0.5em;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
     overflow: hidden;
   }
 
-  a {
+nav a {
     float: left;
-    color: #f2f2f2;
+    color: white;
     text-align: center;
     padding: 0.8em 1em;
     text-decoration: none;
@@ -36,10 +40,75 @@ body {
     font-family: "Bayon", sans-serif;
   }
 
-  .active {
+  
+.active {
     color: #ff0000;
   }
 
-  .link:hover {
+.link:hover {
     color: #ff0000;
+  }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: auto;
+    width: 35%;
+}
+
+section a {
+    font-size: 1.4em;
+    float: left;
+    color: white;
+    margin-block-end: 0em;
+    font-family: "Bayon", sans-serif;
+}
+
+section p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+  }
+  
+section a:hover {
+    color: #ff0000;
+}
+
+
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: flex-start;
+    margin: auto;
+  }
+
+article h1 {
+    font-size: 1.4em;
+    float: left;
+    color: white;
+    margin-block-end: 0em;
+    font-family: "Bayon", sans-serif;
+}
+
+  article p {
+    color: white;
+    font-family: "Lato", sans-serif;
+    margin-block-start: 0em;
+    margin-block-end: 2em;
+  }
+
+  article a {
+    color: #ff0000;
+    font-family: "Lato", sans-serif;
+    margin-block-start: -1.5em;
+    margin-block-end: 2em;
+  }
+ 
+  article img {
+    width: 50%;
+    margin-block-start: 0em;
+    margin-block-end: 1em;
   }
