@@ -80,7 +80,8 @@ section a:hover {
   article {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 55%;
+    font-size: 1.1em;
     align-items: flex-start;
     margin: auto;
   }
@@ -108,7 +109,7 @@ article h1 {
   }
  
   article img {
-    width: 50%;
+    width: 70%;
     margin-block-start: 0em;
     margin-block-end: 1em;
   }

@@ -118,3 +118,7 @@ nav figure {
 .about:hover {
   filter: brightness(1);
 }
+
+#learn:hover, #aboutme:hover {
+  filter: brightness(1);
+}
