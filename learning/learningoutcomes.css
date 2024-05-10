@@ -99,6 +99,7 @@ article h1 {
     font-family: "Lato", sans-serif;
     margin-block-start: 0em;
     margin-block-end: 2em;
+    font-size: 1.1em;
   }
 
   article a {
@@ -113,3 +114,30 @@ article h1 {
     margin-block-start: 0em;
     margin-block-end: 1em;
   }
+
+  @media only screen and (max-width: 600px) {  
+    section {
+      width: 85%;
+    }
+    a {
+      font-size: 1.2em;
+    }
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {  
+  section {
+    width: 85%;
+  }
+  a {
+    font-size: 1.2em;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  section {
+    width: 85%;
+  }
+  a {
+    font-size: 1.2em;
+  }
+}
